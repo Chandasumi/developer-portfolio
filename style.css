@@ -9,7 +9,7 @@ h1{
     font-size: 70px;
     color: navy;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 150px;
 }
@@ -28,10 +28,13 @@ section{
     border-radius: 5px;
     background-image: linear-gradient(skyblue,blue);
     font-weight: 700;
+    color: white;
 }
 .top-banner{
     background-image: url(image2.png);
     background-repeat: no-repeat;
     background-size: 200px;
 }
-
+.education{
+    padding-right: 1500px;
+}
